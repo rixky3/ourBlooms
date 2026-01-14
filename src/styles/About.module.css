@@ -1,0 +1,42 @@
+.head{
+    text-align: start;
+}
+
+.AuthorInformation{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+    text-align: start;
+}
+.rightColumnContainer{
+    grid-area:'rc';
+    text-align:start;
+}
+.upImage{
+    display: flex;
+    justify-content: space-between;
+    grid-area:'ui1';
+}
+
+.bottomTxt{
+    grid-area:'bt1';
+}
+.cap{
+    grid-area:'caption';
+    text-align: start;
+}
+.more{
+    grid-area:'br1';
+}
+.container{
+    display: grid;
+    grid-template-areas: 'caption rc rc rc rc rc rc rc rc rc rc rc'
+                         'caption gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1 gr1'
+                         'caption ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1 ui1'
+                         'caption bt1 bt1 bt1 bt1 bt1 bt1 bt1 bt1 bt1 bt1 bt1'
+                         'caption br1 br1 br1 br1 br1 br1 br1 br1 br1 br1 br1';
+    gap:40px;
+}
+.ImageBreak{
+    grid-area:'br1';
+}
