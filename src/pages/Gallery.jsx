@@ -117,6 +117,7 @@ function Gallery(){
         </div>
         <Footer/>
         </>
+        
     )
 }
 export default Gallery;
